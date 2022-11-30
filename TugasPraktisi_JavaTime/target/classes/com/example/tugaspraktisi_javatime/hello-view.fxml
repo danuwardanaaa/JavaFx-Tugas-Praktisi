@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="169.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tugaspraktisi_javatime.controller.JavaTimeController">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+      <TextField fx:id="date" editable="false" layoutX="56.0" layoutY="23.0" />
+      <Label layoutX="20.0" layoutY="27.0" text="Date" />
+      <TextField fx:id="time" editable="false" layoutX="275.0" layoutY="23.0" />
+      <Label layoutX="234.0" layoutY="27.0" prefHeight="18.0" prefWidth="35.0" text="Time" />
+      <Label layoutX="18.0" layoutY="68.0" prefHeight="18.0" prefWidth="45.0" text="Local" />
+      <Label layoutX="208.0" layoutY="64.0" prefHeight="18.0" prefWidth="88.0" text="Time Zone" />
+      <Label layoutX="11.0" layoutY="128.0" text="Date Style" />
+      <Label layoutX="208.0" layoutY="128.0" prefHeight="18.0" prefWidth="81.0" text="Time Style" />
+      <ChoiceBox fx:id="timeZone" layoutX="275.0" layoutY="65.0" prefHeight="25.0" prefWidth="161.0" />
+      <ChoiceBox fx:id="localZone" layoutX="56.0" layoutY="65.0" prefHeight="25.0" prefWidth="149.0" />
+      <ChoiceBox fx:id="timeStyle" layoutX="275.0" layoutY="125.0" prefHeight="25.0" prefWidth="161.0" />
+      <ChoiceBox fx:id="dateStyle" layoutX="78.0" layoutY="124.0" prefHeight="25.0" prefWidth="126.0" />
+   </children>
+</AnchorPane>
